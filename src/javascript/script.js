@@ -29,6 +29,6 @@ function numero(){
         if(valor == 80){
             clearInterval(tempo1)
         }
-
+        
     })
 }

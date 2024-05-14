@@ -1,0 +1,67 @@
+:root{
+    --text-color1: #fff;
+    --text-color2: #000;
+    --main-color: orangered;
+    --secondary-color: #43063d;
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background-color: var(--secondary-color);
+}
+header{
+    position: fixed;
+    width: 100%;
+    padding: 40px 60px;
+    display: flex;
+}
+.logo{
+    padding-left:20px;
+    width: auto;
+    height: 100px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    gap:10px;
+    transition: 0.5s;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap:50px;
+}
+nav li a{
+    margin: 2rem 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--text-color1);
+    transition: 0.1s ease;
+}
+nav li a:hover{
+    border-bottom: 2px solid var(--main-color);
+}
+.btn{
+    color:var(--text-color1);
+    border: 1px solid var(--main-color);
+    padding: 0.8rem 3rem;
+    border-radius: 1rem;
+    transition:  0.3s ease;
+}
+.btn:hover{
+    background: var(--secondary-color);
+    border-color: var(--main-color);
+    color: var(--main-color);
+}
+.main{
+    width: 100%;
+}
