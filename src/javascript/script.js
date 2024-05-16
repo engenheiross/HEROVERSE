@@ -32,3 +32,21 @@ function numero(){
         
     })
 }
+
+// SISTEMA DE CADASTRO DE EMAIL
+document.addEventListener("DOMContentLoaded", function(){
+
+    let email = document.querySelector(".info-email");
+     let msg = document.querySelector(".mensagem");
+
+    msg.classList.add("hidden");
+
+    email.addEventListener("keyup", function(event){
+        if(event.keyCode === 13) {
+            event.preventDefault();
+            msg.classList.remove("hidden")
+            email.style.display="none";
+            email.value = "";
+        }
+    })
+})
