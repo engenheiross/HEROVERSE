@@ -20,6 +20,7 @@ header{
     width: 100%;
     padding: 40px 60px;
     display: flex;
+    color: var(--secondary-color);
 }
 .logo{
     padding-left:20px;
@@ -99,4 +100,30 @@ section{
     font-size: 65px;
     font-weight: bolder;
     transition: 0.3s ease-in-out;
+}
+#contato{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color1);
+}
+#contato h2{
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-size: 50px;
+    background-image: linear-gradient(to left, var(--main-color), yellow);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+}
+#email{
+    width: 350px;
+    height: 40px;
+    padding: 1rem;
+    border: 1px solid var(--main-color);
+    border-radius: 7px;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    text-align: center;
 }
