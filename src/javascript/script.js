@@ -21,13 +21,13 @@ function numero(){
     const contador = document.getElementById("contador")
     let valor=0;
     
-    let tempo1 =setInterval(()=>{
+    let tempo =setInterval(()=>{
         valor +=1;
 
         contador.innerHTML = `+ ${valor}`;
 
         if(valor == 80){
-            clearInterval(tempo1)
+            clearInterval(tempo)
         }
         
     })
