@@ -130,3 +130,13 @@ section{
 .mensagem.hidden{
  display: none;
 }
+footer{
+    width: 100%;
+    height: 5vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color2);
+    background-color: var(--main-color);
+}
