@@ -306,9 +306,12 @@ footer h5{
         margin-bottom: 30px;
     }
     #cards{
+        background-color: transparent;
         height: 400vh;
+        min-height: 600vh;
     }
     #contato{
+        min-height: 100vh;
         text-align: center;
     }
     footer{
