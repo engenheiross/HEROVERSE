@@ -274,23 +274,6 @@ footer h5{
         width: auto;
         height: 60px;
     }
-    nav{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 100%;
-        gap:10px;
-        transition: 0.5s;
-    }
-    nav ul{
-        display: flex;
-        align-items: center;
-        gap:50px;
-    }
-    nav li a{
-        margin: 2rem 0;
-        transition: 0.1s ease;
-    }
     .btn{
         border: none;
         border-radius: 0;
@@ -306,12 +289,12 @@ footer h5{
     #banner{
         width: 409px;
         height: 230px;
-        margin-top: 15vh;
+        margin-top: 20vh;
     }
     #contador{
         width: 100%;
         justify-content: center;
-        margin-top: -60vh;
+        margin-top: -50vh;
         font-size: 40px;
     }
     #contador:hover{
